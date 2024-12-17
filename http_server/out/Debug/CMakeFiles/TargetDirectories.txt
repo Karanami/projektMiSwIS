@@ -1,0 +1,3 @@
+/home/piotr/projects/linux_http_server_try1/out/Debug/CMakeFiles/http_tcp.dir
+/home/piotr/projects/linux_http_server_try1/out/Debug/CMakeFiles/edit_cache.dir
+/home/piotr/projects/linux_http_server_try1/out/Debug/CMakeFiles/rebuild_cache.dir

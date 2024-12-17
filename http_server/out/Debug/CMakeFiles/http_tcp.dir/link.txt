@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/http_tcp.dir/main.cpp.o CMakeFiles/http_tcp.dir/http_tcp_server.cpp.o -o http_tcp 

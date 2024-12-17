@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/piotr/projects/linux_http_server_try1/out/Debug",
+  "command": "/usr/bin/c++  -I/home/piotr/projects/linux_http_server_try1/inc -g -std=gnu++23 -o CMakeFiles/http_tcp.dir/main.cpp.o -c /home/piotr/projects/linux_http_server_try1/main.cpp",
+  "file": "/home/piotr/projects/linux_http_server_try1/main.cpp",
+  "output": "CMakeFiles/http_tcp.dir/main.cpp.o"
+},
+{
+  "directory": "/home/piotr/projects/linux_http_server_try1/out/Debug",
+  "command": "/usr/bin/c++  -I/home/piotr/projects/linux_http_server_try1/inc -g -std=gnu++23 -o CMakeFiles/http_tcp.dir/http_tcp_server.cpp.o -c /home/piotr/projects/linux_http_server_try1/http_tcp_server.cpp",
+  "file": "/home/piotr/projects/linux_http_server_try1/http_tcp_server.cpp",
+  "output": "CMakeFiles/http_tcp.dir/http_tcp_server.cpp.o"
+}
+]
