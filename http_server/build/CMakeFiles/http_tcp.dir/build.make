@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piotr/szkola/sem7/is/projektMiSwIS/http_server
+CMAKE_SOURCE_DIR = /home/piotr/projects/projektMiSwIS/http_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/build
+CMAKE_BINARY_DIR = /home/piotr/projects/projektMiSwIS/http_server/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/http_tcp.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/http_tcp.dir/progress.make
 include CMakeFiles/http_tcp.dir/flags.make
 
 CMakeFiles/http_tcp.dir/main.cpp.o: CMakeFiles/http_tcp.dir/flags.make
-CMakeFiles/http_tcp.dir/main.cpp.o: /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/main.cpp
+CMakeFiles/http_tcp.dir/main.cpp.o: /home/piotr/projects/projektMiSwIS/http_server/main.cpp
 CMakeFiles/http_tcp.dir/main.cpp.o: CMakeFiles/http_tcp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/piotr/szkola/sem7/is/projektMiSwIS/http_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/http_tcp.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/http_tcp.dir/main.cpp.o -MF CMakeFiles/http_tcp.dir/main.cpp.o.d -o CMakeFiles/http_tcp.dir/main.cpp.o -c /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/piotr/projects/projektMiSwIS/http_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/http_tcp.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/http_tcp.dir/main.cpp.o -MF CMakeFiles/http_tcp.dir/main.cpp.o.d -o CMakeFiles/http_tcp.dir/main.cpp.o -c /home/piotr/projects/projektMiSwIS/http_server/main.cpp
 
 CMakeFiles/http_tcp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/http_tcp.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/main.cpp > CMakeFiles/http_tcp.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/projects/projektMiSwIS/http_server/main.cpp > CMakeFiles/http_tcp.dir/main.cpp.i
 
 CMakeFiles/http_tcp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/http_tcp.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/main.cpp -o CMakeFiles/http_tcp.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/projects/projektMiSwIS/http_server/main.cpp -o CMakeFiles/http_tcp.dir/main.cpp.s
 
 CMakeFiles/http_tcp.dir/mongoose.c.o: CMakeFiles/http_tcp.dir/flags.make
-CMakeFiles/http_tcp.dir/mongoose.c.o: /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/mongoose.c
+CMakeFiles/http_tcp.dir/mongoose.c.o: /home/piotr/projects/projektMiSwIS/http_server/mongoose.c
 CMakeFiles/http_tcp.dir/mongoose.c.o: CMakeFiles/http_tcp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/piotr/szkola/sem7/is/projektMiSwIS/http_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/http_tcp.dir/mongoose.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/http_tcp.dir/mongoose.c.o -MF CMakeFiles/http_tcp.dir/mongoose.c.o.d -o CMakeFiles/http_tcp.dir/mongoose.c.o -c /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/mongoose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/piotr/projects/projektMiSwIS/http_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/http_tcp.dir/mongoose.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/http_tcp.dir/mongoose.c.o -MF CMakeFiles/http_tcp.dir/mongoose.c.o.d -o CMakeFiles/http_tcp.dir/mongoose.c.o -c /home/piotr/projects/projektMiSwIS/http_server/mongoose.c
 
 CMakeFiles/http_tcp.dir/mongoose.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/http_tcp.dir/mongoose.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/mongoose.c > CMakeFiles/http_tcp.dir/mongoose.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/piotr/projects/projektMiSwIS/http_server/mongoose.c > CMakeFiles/http_tcp.dir/mongoose.c.i
 
 CMakeFiles/http_tcp.dir/mongoose.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/http_tcp.dir/mongoose.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/mongoose.c -o CMakeFiles/http_tcp.dir/mongoose.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/piotr/projects/projektMiSwIS/http_server/mongoose.c -o CMakeFiles/http_tcp.dir/mongoose.c.s
 
 # Object files for target http_tcp
 http_tcp_OBJECTS = \
@@ -109,7 +109,7 @@ bin/http_tcp: CMakeFiles/http_tcp.dir/main.cpp.o
 bin/http_tcp: CMakeFiles/http_tcp.dir/mongoose.c.o
 bin/http_tcp: CMakeFiles/http_tcp.dir/build.make
 bin/http_tcp: CMakeFiles/http_tcp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/piotr/szkola/sem7/is/projektMiSwIS/http_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/http_tcp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/piotr/projects/projektMiSwIS/http_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/http_tcp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/http_tcp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/http_tcp.dir/clean:
 .PHONY : CMakeFiles/http_tcp.dir/clean
 
 CMakeFiles/http_tcp.dir/depend:
-	cd /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/szkola/sem7/is/projektMiSwIS/http_server /home/piotr/szkola/sem7/is/projektMiSwIS/http_server /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/build /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/build /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/build/CMakeFiles/http_tcp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/piotr/projects/projektMiSwIS/http_server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/projects/projektMiSwIS/http_server /home/piotr/projects/projektMiSwIS/http_server /home/piotr/projects/projektMiSwIS/http_server/build /home/piotr/projects/projektMiSwIS/http_server/build /home/piotr/projects/projektMiSwIS/http_server/build/CMakeFiles/http_tcp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/http_tcp.dir/depend
 

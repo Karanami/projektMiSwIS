@@ -1,0 +1,39 @@
+[0.025s] Invoking command in '/home/piotr/projects/projektMiSwIS/ros2_ws/build/http_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/piotr/projects/projektMiSwIS/ros2_ws/http_server -DCMAKE_INSTALL_PREFIX=/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server
+[0.116s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.429s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.615s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.633s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.822s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.826s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.361s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.387s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.525s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.525s] -- Configured cppcheck include dirs: 
+[1.526s] -- Configured cppcheck exclude dirs and/or files: 
+[1.527s] -- Added test 'lint_cmake' to check CMake code style
+[1.529s] -- Added test 'uncrustify' to check C / C++ code style
+[1.529s] -- Configured uncrustify additional arguments: 
+[1.529s] -- Added test 'xmllint' to check XML markup files
+[1.534s] [31mCMake Error at CMakeLists.txt:52 (configure_file):
+[1.535s]   Permission denied
+[1.535s] Call Stack (most recent call first):
+[1.535s]   CMakeLists.txt:55 (copy_file)
+[1.535s] 
+[1.535s] [0m
+[1.535s] [31mCMake Error at CMakeLists.txt:52 (configure_file):
+[1.536s]   Permission denied
+[1.536s] Call Stack (most recent call first):
+[1.536s]   CMakeLists.txt:56 (copy_file)
+[1.536s] 
+[1.536s] [0m
+[1.536s] [31mCMake Error at CMakeLists.txt:52 (configure_file):
+[1.536s]   Permission denied
+[1.537s] Call Stack (most recent call first):
+[1.537s]   CMakeLists.txt:57 (copy_file)
+[1.537s] 
+[1.537s] [0m
+[1.537s] -- Configuring incomplete, errors occurred!
+[1.551s] Invoked command in '/home/piotr/projects/projektMiSwIS/ros2_ws/build/http_server' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/piotr/projects/projektMiSwIS/ros2_ws/http_server -DCMAKE_INSTALL_PREFIX=/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server

@@ -1,0 +1,57 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/piotr/projects/projektMiSwIS/ros2_ws/http_server/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/piotr/projects/projektMiSwIS/ros2_ws/build/http_server
+[ 33%] [32mBuilding CXX object CMakeFiles/http_server.dir/main.cpp.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/http_server.dir/mongoose.c.o[0m
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:25:26:[m[K [01;35m[Kwarning: [m[KISO C++ does not permit named variadic macros [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvariadic-macros-Wvariadic-macros]8;;[m[K]
+   25 | #define exit_log_err(args[01;35m[K...[m[K)   do { MG_ERROR((args)); exit(EXIT_FAILURE); } while(0)
+      |                          [01;35m[K^~~[m[K
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:27:22:[m[K [01;35m[Kwarning: [m[KISO C++ does not permit named variadic macros [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvariadic-macros-Wvariadic-macros]8;;[m[K]
+   27 | #define log_info(args[01;35m[K...[m[K)  MG_INFO((args))
+      |                      [01;35m[K^~~[m[K
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K ev_callback[m[K(mg_connection*, int, void*)[m[K’:
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:99:48:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kmg_http_serve_opts::ssi_pattern[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   99 |             struct mg_http_serve_opts opts = {0[01;35m[K}[m[K;
+      |                                                [01;35m[K^[m[K
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:99:48:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kmg_http_serve_opts::extra_headers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:99:48:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kmg_http_serve_opts::mime_types[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:99:48:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kmg_http_serve_opts::page404[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:99:48:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kmg_http_serve_opts::fs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[100%] [32m[1mLinking CXX executable http_server[0m
+[100%] Built target http_server
+-- Install configuration: ""
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/lib/http_server/http_server
+-- Set non-toolchain portion of runtime path of "/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/lib/http_server/http_server" to ""
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/ament_index/resource_index/package_run_dependencies/http_server
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/ament_index/resource_index/parent_prefix_path/http_server
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/environment/ament_prefix_path.sh
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/environment/ament_prefix_path.dsv
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/environment/path.sh
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/environment/path.dsv
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/local_setup.bash
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/local_setup.sh
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/local_setup.zsh
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/local_setup.dsv
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/package.dsv
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/ament_index/resource_index/packages/http_server
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/cmake/http_serverConfig.cmake
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/cmake/http_serverConfig-version.cmake
+-- Installing: /home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/package.xml

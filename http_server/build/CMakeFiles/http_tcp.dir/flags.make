@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/piotr/szkola/sem7/is/projektMiSwIS/http_server/inc
+C_INCLUDES = -I/home/piotr/projects/projektMiSwIS/http_server/inc
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/piotr/szkola/sem7/is/projektMiSwIS/http_server/inc
+CXX_INCLUDES = -I/home/piotr/projects/projektMiSwIS/http_server/inc
 
 CXX_FLAGS = -std=gnu++23
 

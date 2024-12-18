@@ -1,0 +1,2 @@
+Invoking command in '/home/piotr/projects/projektMiSwIS/ros2_ws/build/http_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/piotr/projects/projektMiSwIS/ros2_ws/build/http_server -- -j8 -l8
+Invoked command in '/home/piotr/projects/projektMiSwIS/ros2_ws/build/http_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/piotr/projects/projektMiSwIS/ros2_ws/build/http_server -- -j8 -l8

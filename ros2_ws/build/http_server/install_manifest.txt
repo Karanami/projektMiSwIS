@@ -1,0 +1,16 @@
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/lib/http_server/http_server
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/ament_index/resource_index/package_run_dependencies/http_server
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/ament_index/resource_index/parent_prefix_path/http_server
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/environment/ament_prefix_path.sh
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/environment/ament_prefix_path.dsv
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/environment/path.sh
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/environment/path.dsv
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/local_setup.bash
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/local_setup.sh
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/local_setup.zsh
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/local_setup.dsv
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/package.dsv
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/ament_index/resource_index/packages/http_server
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/cmake/http_serverConfig.cmake
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/cmake/http_serverConfig-version.cmake
+/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server/share/http_server/package.xml

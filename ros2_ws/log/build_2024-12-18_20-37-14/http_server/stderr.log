@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:28 (ament_packageset):
+  Unknown CMake command "ament_packageset".
+
+[0m

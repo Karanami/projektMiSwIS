@@ -1,7 +1,7 @@
 CMakeFiles/http_tcp.dir/mongoose.c.o: \
- /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/mongoose.c \
+ /home/piotr/projects/projektMiSwIS/http_server/mongoose.c \
  /usr/include/stdc-predef.h \
- /home/piotr/szkola/sem7/is/projektMiSwIS/http_server/inc/mongoose.h \
+ /home/piotr/projects/projektMiSwIS/http_server/inc/mongoose.h \
  /usr/include/arpa/inet.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

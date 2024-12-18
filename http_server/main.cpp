@@ -1,6 +1,9 @@
 #include <cstdlib>
+#include <iomanip>
+#include <mutex>
 #include <string>
 #include <csignal>
+#include <ctime>
 
 #include "inc/mongoose.h"
 
@@ -11,16 +14,32 @@ static const int s_debug_level =                MG_LL_INFO;
 static const std::string s_root_dir =           ".";
 static const std::string s_addr =               "0.0.0.0:8000";
 
+// server info
+
+static std::string s_alive_since = "";
+static std::string s_server_version = "v1.0";
+
 // other
 
-#define exit_log_err(args...)                   \
-do                                              \
-{                                               \
-    MG_ERROR((args));                           \
-    exit(EXIT_FAILURE);                         \
-} while(0)
+#define exit_log_err(args...)   do { MG_ERROR((args)); exit(EXIT_FAILURE); } while(0)
 
 #define log_info(args...)  MG_INFO((args))
+
+static std::string get_time()
+{
+    time_t t;
+    char *ct;
+    std::time(&t);
+    ct = ctime(&t);
+
+    if(ct != nullptr) 
+    {
+        std::string st(ctime(&t));
+        st.pop_back();
+        return st;
+    }
+    return "NaN";
+}
 
 // interrupt handling
 
@@ -36,25 +55,21 @@ static void api_test(mg_connection *c, mg_http_message *hm)
 {
     if(c == nullptr or hm == nullptr) exit_log_err("conneciton or http_message is null");
 
-    static int i = 0;
-
-    mg_http_reply(c, 200, "", "Api test response");
-
-    i++;
+    mg_http_reply(c, 200, "", R"({ "server_version" : "%s", "alive_since" : "%s" })", s_server_version.c_str(), s_alive_since.c_str());
 }
 
-static void api_get_temp(mg_connection *c, mg_http_message *hm)
+static void api_get_temperature(mg_connection *c, mg_http_message *hm)
 {
     if(c == nullptr or hm == nullptr) exit_log_err("conneciton or http_message is null");
 
-    
+    mg_http_reply(c, 200, "", R"({ "temperature" : 0.0 })");
 }
 
 static void api_get_contamination(mg_connection *c, mg_http_message *hm)
 {
     if(c == nullptr or hm == nullptr) exit_log_err("conneciton or http_message is null");
-    
 
+    mg_http_reply(c, 200, "", R"({ "contamination" : 0 })");
 }
 
 // mongoose
@@ -70,9 +85,9 @@ static void ev_callback(mg_connection *c, int ev, void* ev_data)
         {
             api_test(c, hm);
         }
-        else if(mg_match(hm->uri, mg_str("/api/get/temp"), NULL))
+        else if(mg_match(hm->uri, mg_str("/api/get/temperature"), NULL))
         {
-            api_get_temp(c, hm);
+            api_get_temperature(c, hm);
         }
         else if(mg_match(hm->uri, mg_str("/api/get/contamination"), NULL))
         {
@@ -99,11 +114,14 @@ int main (int argc, char *argv[])
     signal(SIGINT, signal_callback);
     signal(SIGTERM, signal_callback);
 
-    if(mg_http_listen(&mgr, s_addr.c_str(), ev_callback, nullptr) == nullptr) exit_log_err("main: http listen failed on addr : %s", s_addr.c_str());
+    if(mg_http_listen(&mgr, s_addr.c_str(), ev_callback, nullptr) == nullptr) exit_log_err("http listen failed on addr : %s", s_addr.c_str());
     
+    s_alive_since = get_time();
+
     log_info("Mongoose version : v%s", MG_VERSION);
     log_info("HTTP listener    : %s", s_addr.c_str());
     log_info("Web root         : [%s]", s_root_dir.c_str());
+    log_info("Web start        : %s", s_alive_since.c_str());
 
     while(s_signo == 0) mg_mgr_poll(&mgr, 1000); 
     

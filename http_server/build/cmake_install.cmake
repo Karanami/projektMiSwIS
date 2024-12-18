@@ -1,4 +1,4 @@
-# Install script for directory: /home/piotr/szkola/sem7/is/projektMiSwIS/http_server
+# Install script for directory: /home/piotr/projects/projektMiSwIS/http_server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/piotr/szkola/sem7/is/projektMiSwIS/http_server/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/piotr/projects/projektMiSwIS/http_server/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

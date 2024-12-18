@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/piotr/szkola/sem7/is/projektMiSwIS/http_server/mongoose.c" "CMakeFiles/http_tcp.dir/mongoose.c.o" "gcc" "CMakeFiles/http_tcp.dir/mongoose.c.o.d"
-  "/home/piotr/szkola/sem7/is/projektMiSwIS/http_server/main.cpp" "CMakeFiles/http_tcp.dir/main.cpp.o" "gcc" "CMakeFiles/http_tcp.dir/main.cpp.o.d"
+  "/home/piotr/projects/projektMiSwIS/http_server/mongoose.c" "CMakeFiles/http_tcp.dir/mongoose.c.o" "gcc" "CMakeFiles/http_tcp.dir/mongoose.c.o.d"
+  "/home/piotr/projects/projektMiSwIS/http_server/main.cpp" "CMakeFiles/http_tcp.dir/main.cpp.o" "gcc" "CMakeFiles/http_tcp.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

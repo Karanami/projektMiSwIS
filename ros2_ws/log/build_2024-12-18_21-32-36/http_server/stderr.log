@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:48 (configure_file):
+  Permission denied
+Call Stack (most recent call first):
+  CMakeLists.txt:51 (copy_file)
+
+[0m
+[31mCMake Error at CMakeLists.txt:48 (configure_file):
+  Permission denied
+Call Stack (most recent call first):
+  CMakeLists.txt:52 (copy_file)
+
+[0m
+[31mCMake Error at CMakeLists.txt:48 (configure_file):
+  Permission denied
+Call Stack (most recent call first):
+  CMakeLists.txt:53 (copy_file)
+
+[0m
+gmake: *** [Makefile:294: cmake_check_build_system] Error 1

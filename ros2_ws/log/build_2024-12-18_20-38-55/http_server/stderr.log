@@ -1,0 +1,21 @@
+[0mCMake Error: File /home/piotr/projects/projektMiSwIS/ros2_ws/http_server/src/index.html does not exist.[0m
+[31mCMake Error at CMakeLists.txt:52 (configure_file):
+  configure_file Problem configuring file
+Call Stack (most recent call first):
+  CMakeLists.txt:55 (copy_file)
+
+[0m
+[0mCMake Error: File /home/piotr/projects/projektMiSwIS/ros2_ws/http_server/src/prog.js does not exist.[0m
+[31mCMake Error at CMakeLists.txt:52 (configure_file):
+  configure_file Problem configuring file
+Call Stack (most recent call first):
+  CMakeLists.txt:56 (copy_file)
+
+[0m
+[0mCMake Error: File /home/piotr/projects/projektMiSwIS/ros2_ws/http_server/src/style.css does not exist.[0m
+[31mCMake Error at CMakeLists.txt:52 (configure_file):
+  configure_file Problem configuring file
+Call Stack (most recent call first):
+  CMakeLists.txt:57 (copy_file)
+
+[0m

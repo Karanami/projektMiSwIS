@@ -1,0 +1,22 @@
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/mongoose.c:20:10:[m[K [01;31m[Kfatal error: [m[Kmongoose.h: No such file or directory
+   20 | #include [01;31m[K"mongoose.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/http_server.dir/build.make:90: CMakeFiles/http_server.dir/mongoose.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:25:26:[m[K [01;35m[Kwarning: [m[KISO C++ does not permit named variadic macros [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvariadic-macros-Wvariadic-macros]8;;[m[K]
+   25 | #define exit_log_err(args[01;35m[K...[m[K)   do { MG_ERROR((args)); exit(EXIT_FAILURE); } while(0)
+      |                          [01;35m[K^~~[m[K
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:27:22:[m[K [01;35m[Kwarning: [m[KISO C++ does not permit named variadic macros [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvariadic-macros-Wvariadic-macros]8;;[m[K]
+   27 | #define log_info(args[01;35m[K...[m[K)  MG_INFO((args))
+      |                      [01;35m[K^~~[m[K
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K ev_callback[m[K(mg_connection*, int, void*)[m[K’:
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:99:48:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kmg_http_serve_opts::ssi_pattern[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   99 |             struct mg_http_serve_opts opts = {0[01;35m[K}[m[K;
+      |                                                [01;35m[K^[m[K
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:99:48:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kmg_http_serve_opts::extra_headers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:99:48:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kmg_http_serve_opts::mime_types[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:99:48:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kmg_http_serve_opts::page404[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/piotr/projects/projektMiSwIS/ros2_ws/http_server/main.cpp:99:48:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kmg_http_serve_opts::fs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/http_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

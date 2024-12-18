@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:52 (configure_file):
+  Permission denied
+Call Stack (most recent call first):
+  CMakeLists.txt:55 (copy_file)
+
+[0m
+[31mCMake Error at CMakeLists.txt:52 (configure_file):
+  Permission denied
+Call Stack (most recent call first):
+  CMakeLists.txt:56 (copy_file)
+
+[0m
+[31mCMake Error at CMakeLists.txt:52 (configure_file):
+  Permission denied
+Call Stack (most recent call first):
+  CMakeLists.txt:57 (copy_file)
+
+[0m

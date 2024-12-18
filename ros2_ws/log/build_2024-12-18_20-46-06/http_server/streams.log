@@ -1,0 +1,20 @@
+[0.024s] Invoking command in '/home/piotr/projects/projektMiSwIS/ros2_ws/build/http_server': /usr/bin/cmake /home/piotr/projects/projektMiSwIS/ros2_ws/http_server -DCMAKE_INSTALL_PREFIX=/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server
+[0.133s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.445s] Traceback (most recent call last):
+[4.445s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[4.445s]     from ament_package.templates import get_environment_hook_template_path
+[4.446s] ModuleNotFoundError: No module named 'ament_package'
+[4.524s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[4.524s]   execute_process(/usr/bin/python3
+[4.524s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[4.525s]   /home/piotr/projects/projektMiSwIS/ros2_ws/build/http_server/ament_cmake_package_templates/templates.cmake)
+[4.525s]   returned error code 1
+[4.525s] Call Stack (most recent call first):
+[4.526s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[4.526s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[4.526s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[4.526s]   CMakeLists.txt:9 (find_package)
+[4.527s] 
+[4.528s] [0m
+[4.528s] -- Configuring incomplete, errors occurred!
+[4.540s] Invoked command in '/home/piotr/projects/projektMiSwIS/ros2_ws/build/http_server' returned '1': /usr/bin/cmake /home/piotr/projects/projektMiSwIS/ros2_ws/http_server -DCMAKE_INSTALL_PREFIX=/home/piotr/projects/projektMiSwIS/ros2_ws/install/http_server
