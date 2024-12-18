@@ -15,3 +15,18 @@ add_executable( http_tcp
                 mongoose.c )
 
 target_include_directories(http_tcp PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/inc)
+
+function(copy_file FILE)
+    # add_custom_command(
+    #     TARGET http_tcp PRE_BUILD
+    #     COMMENT "Copping ${file} to exec destination"
+    #     COMMAND ${CMAKE_COMMAND} -E copy 
+    #         "${CMAKE_CURRENT_SOURCE_DIR}/${file}"
+    #         "${EXECUTABLE_OUTPUT_PATH}/"
+    # )
+    configure_file("${CMAKE_CURRENT_SOURCE_DIR}/${FILE}" "${EXECUTABLE_OUTPUT_PATH}/" COPYONLY)
+endfunction()
+
+copy_file(index.html)
+copy_file(prog.js)
+copy_file(style.css)

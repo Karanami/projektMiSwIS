@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/http_tcp.dir/main.cpp.o CMakeFiles/http_tcp.dir/mongoose.c.o -o bin/http_tcp 
