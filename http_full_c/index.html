@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <link rel="stylesheet" href="style.css">
+        <script src="prog.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>     
+    <body>
+        <h2>Temperatura:</h2>
+        <canvas id="myChart" onload="loadCanvas()" onloadeddata="loadCanvas()" width="80%" height=""></canvas>
+        <script>
+            // Inicjalizacja wykresu
+            const ctx = document.getElementById('myChart').getContext('2d');
+            const myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: [], // Początkowo pusta oś X
+                    datasets: [{
+                        label: 'Temperatura',
+                        data: [],
+                        borderColor: 'blue',
+                        backgroundColor: 'rgba(0, 0, 255, 0.3)',
+                        borderWidth: 2
+                    }]
+                }
+                // options: {
+                //     scales: {
+                //         x: {
+                //             type: 'time', // Włączenie osi czasu
+                //             time: {
+                //                 unit: 'second'
+                //             }
+                //         },
+                //         y: {
+                //             beginAtZero: true
+                //         }
+                //     }
+                // }
+            });
+    
+            // Funkcja zwracająca aktualny czas w formacie HH:MM:SS
+        </script>
+        <!--<button type="button" onclick="onButtonClick()"> Clik Me </button><br>-->
+        <!--<input type="text" id="httpResponse" value="" width="100" height="100"><br>-->
+    </body>
+</html>
