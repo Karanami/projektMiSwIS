@@ -1,4 +1,4 @@
-### Project for uni
+# Project for uni
 Based on STM32MP157x-DK1
 
 ## Quick setup 
